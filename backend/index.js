@@ -31,10 +31,10 @@ mongodbCLient.connect (
     process.exit(1)
 })
 
-// starting web server
+// starting the web server
 .then(async client => {
 
-    //before starting our server : we get an initial reference to the restaurants collection in the db
+    //before starting the server : we get an initial reference to the restaurants collection in the db
     await RestaurantsDAO.injectDB(client)
     app.listen(port, () => {
         console.log(`listening on port ${port}`)
