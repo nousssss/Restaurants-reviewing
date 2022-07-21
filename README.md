@@ -1,4 +1,2 @@
-# Restaurants Review
-    I am following a tutorial :)
-    
-I am just trying the branching thingyyyy
+A work in progress :
+   MERN stack project - a website for reviewing resturants.
