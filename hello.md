@@ -24,7 +24,7 @@ python3 -m venv mlir_venv
 source mlir_venv/bin/activate
 ```
 
-2. Upgrade \`pip\` (older versions may not handle recent PyTorch dependencies):
+2. Upgrade `pip` (older versions may not handle recent PyTorch dependencies):
 
 ```bash
 python -m pip install --upgrade pip
@@ -49,7 +49,7 @@ Depending on whether you already have LLVM installed, follow one of the two case
 
 #### Case 1: If You Do Not Have LLVM Installed
 
-Use \`cmake\` to build the project along with LLVM and MLIR:
+Use `cmake` to build the project along with LLVM and MLIR:
 
 ```bash
 cmake -GNinja -Bbuild \
@@ -71,13 +71,13 @@ cmake --build build
 
 #### Case 2: If You Already Have LLVM Installed
 
-If you already have LLVM installed, make sure to set the \`$LLVM_INSTALL_DIR\` variable to point to your LLVM installation directory. Here’s an example of how to set it:
+If you already have LLVM installed, make sure to set the `$LLVM_INSTALL_DIR` variable to point to your LLVM installation directory. Here’s an example of how to set it:
 
 ```bash
 export LLVM_INSTALL_DIR=/path/to/your/llvm-project
 ```
 
-Now, run the following \`cmake\` command:
+Now, run the following `cmake` command:
 
 ```bash
 cmake -GNinja -Bbuild \
@@ -98,10 +98,10 @@ cmake --build build --target tools/torch-mlir/all
 
 ### IV. Set Up Python Environment to Export the Built Python Packages
 
-To use the built Python packages in your environment, export the \`PYTHONPATH\`:
+To use the built Python packages in your environment, export the `PYTHONPATH`:
 
 ```bash
-export PYTHONPATH=\`pwd\`/build/tools/torch-mlir/python_packages/torch_mlir:\`pwd\`/test/python/fx_importer
+export PYTHONPATH=pwd/build/tools/torch-mlir/python_packages/torch_mlir:pwd/test/python/fx_importer
 ```
 
 ### V. Optional: Set Up Jupyter Notebook
