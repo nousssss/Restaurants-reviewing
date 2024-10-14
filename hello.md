@@ -73,7 +73,7 @@ cmake --build build
 
 #### Case 2: If You Already Have LLVM Installed
 
-If you already have LLVM installed, make sure to set the `$LLVM_INSTALL_DIR` variable to point to your LLVM installation directory. Here’s an example of how to set it:
+If you already have LLVM installed, make sure to set the `$LLVM_INSTALL_DIR` variable to point to your LLVM installation directory. Here’s how to set it:
 
 ```bash
 export LLVM_INSTALL_DIR=/path/to/your/llvm-project
