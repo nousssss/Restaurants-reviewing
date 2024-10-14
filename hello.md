@@ -127,6 +127,9 @@ sudo chmod +x ./convert.sh
 sudo chmod +x ./execute.sh
 ```
 
-### VII. Example Notebook
+### VII. Adjust the paths
+In the `convert.sh` and `execute.sh` scripts, change "/home/nouss/Desktop/PFE/HWNASACOMLIR/Solution/llvm-project" into your own /path/to/your/llvm-project.
+
+### VIII. Example Notebook
 
 For a step-by-step explanation, refer to the `example.ipynb` notebook included in the project.
