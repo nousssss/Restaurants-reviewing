@@ -1,7 +1,9 @@
 
-# Torch-MLIR Setup Guide
+# PyTorch to MLIR Conversion.
 
-This guide will walk you through the steps to build and set up the `torch-mlir` project, including setting up the necessary environment and dependencies.
+This guide will walk you through the steps to convert torch modules into MLIR.
+
+First, we will need to build and set up `torch-mlir`:
 
 ### I. Clone the Torch-MLIR Repository
 
