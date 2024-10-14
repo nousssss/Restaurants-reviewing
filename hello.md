@@ -128,7 +128,7 @@ sudo chmod +x ./execute.sh
 ```
 
 ### VII. Adjust the paths
-In the `convert.sh` and `execute.sh` scripts, change "/home/nouss/Desktop/PFE/HWNASACOMLIR/Solution/llvm-project" into your own /path/to/your/llvm-project.
+In the `convert.sh` and `execute.sh` scripts, change all `/home/nouss/Desktop/PFE/HWNASACOMLIR/Solution/llvm-project` occurents into your own `/path/to/your/llvm-project`.
 
 ### VIII. Example Notebook
 
